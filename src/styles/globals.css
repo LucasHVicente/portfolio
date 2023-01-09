@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  --webkit-font-smoothing: antialiased;
+}
+
+section {
+  @apply flex justify-center;
+}
+.section-div {
+  @apply w-[60%] pb-4 border-b border-blue-500 py-[10%];
+}
