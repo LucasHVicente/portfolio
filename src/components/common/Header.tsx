@@ -1,5 +1,6 @@
 import { Button } from './Button';
 import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
+import { LinkButton } from './LinkButton';
 interface HeaderLinkProps {
   label: string;
   url: string;
@@ -29,14 +30,14 @@ export const Header = ({ links }: HeaderParams) => {
     },
   ];
   return (
-    <header className="bg-bg-dark flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0">
-      <Button label="LV" onClick={() => console.log('teste')} />
+    <header className="bg-inherit flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0">
+      <LinkButton label="LV" href="#" />
       <div className="border-b border-blue-500 px-8 flex gap-6 self-end ">
         {links.map(({ label, url }) => (
           <a
             key={url}
             href={url}
-            className="transition hover:cursor-pointer hover:text-blue-500 pb-4"
+            className="hover:drop-shadow-2xl shadow-blue-500 transition hover:cursor-pointer hover:text-blue-500 pb-4"
           >
             {label}
           </a>
@@ -49,7 +50,7 @@ export const Header = ({ links }: HeaderParams) => {
               key={url}
               href={url}
               target="_blank"
-              className="hover:text-blue-500 transition text-2xl py-3"
+              className="hover:text-blue-500 hover:drop-shadow-2xl shadow-blue-500 transition text-2xl my-3"
               rel="noreferrer"
             >
               {icon}

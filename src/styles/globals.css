@@ -15,6 +15,7 @@ section {
 
 h1,
 h2,
+a,
 h3 {
   @apply font-title;
 }

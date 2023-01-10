@@ -3,6 +3,7 @@ import { Contact } from '../components/Contact';
 import { Experience } from '../components/Experience';
 import { Landing } from '../components/Landing';
 import { Projects } from '../components/Projects';
+import { Skills } from '../components/Skills';
 
 import { Header } from '../components/common/Header';
 
@@ -14,6 +15,10 @@ export default function Home() {
           {
             label: 'Sobre',
             url: '#about',
+          },
+          {
+            label: 'Habilidades',
+            url: '#skills',
           },
           {
             label: 'Experência',
@@ -34,6 +39,9 @@ export default function Home() {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
       <section id="experience">
         <Experience />

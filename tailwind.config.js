@@ -19,6 +19,7 @@ module.exports = {
           700: '#4869A0',
         },
         'bg-dark': '#0D1117',
+        'bg-light': '#ebebeb',
       },
     },
   },
