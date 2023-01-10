@@ -1,5 +1,8 @@
 import { About } from '../components/About';
+import { Contact } from '../components/Contact';
+import { Experience } from '../components/Experience';
 import { Landing } from '../components/Landing';
+import { Projects } from '../components/Projects';
 
 import { Header } from '../components/common/Header';
 
@@ -21,8 +24,8 @@ export default function Home() {
             url: '#projects',
           },
           {
-            label: 'Contact',
-            url: '#contato',
+            label: 'Contato',
+            url: '#contact',
           },
         ]}
       />
@@ -32,9 +35,15 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
-      <section id="experience">experience section</section>
-      <section id="projects">projects section</section>
-      <section id="contacts">contacts section</section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 }

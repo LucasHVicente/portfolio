@@ -12,3 +12,9 @@ section {
 .section-div {
   @apply w-[60%] pb-4 border-b border-blue-500 py-[10%];
 }
+
+h1,
+h2,
+h3 {
+  @apply font-title;
+}

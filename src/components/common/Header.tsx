@@ -29,9 +29,9 @@ export const Header = ({ links }: HeaderParams) => {
     },
   ];
   return (
-    <header className="flex flex-1 justify-between p-6 pr-0">
+    <header className="bg-bg-dark flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0">
       <Button label="LV" onClick={() => console.log('teste')} />
-      <div className="border-b border-blue-500 px-8 flex gap-6 self-end">
+      <div className="border-b border-blue-500 px-8 flex gap-6 self-end ">
         {links.map(({ label, url }) => (
           <a
             key={url}
