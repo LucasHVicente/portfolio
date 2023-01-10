@@ -4,11 +4,11 @@ import moment from 'moment';
 export const About = () => {
   const age = moment().diff('1999-04-15', 'years', false);
   return (
-    <div className="section-div flex items-center gap-16">
+    <div className="section-div flex items-center gap-16 lg:flex-row flex-col">
       <img
         alt="Lucas Vicente"
         src="https://avatars.githubusercontent.com/LucasHVicente"
-        className="rounded-full w-80"
+        className="rounded-full w-40 lg:w-80"
       />
       <div>
         <h3 className="text-3xl text-blue-500">Sobre mim</h3>

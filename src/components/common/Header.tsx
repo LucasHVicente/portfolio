@@ -30,7 +30,7 @@ export const Header = ({ links }: HeaderParams) => {
     },
   ];
   return (
-    <header className="bg-inherit flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0">
+    <header className="hidden bg-inherit lg:flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0">
       <LinkButton label="LV" href="#" />
       <div className="border-b border-blue-500 px-8 flex gap-6 self-end ">
         {links.map(({ label, url }) => (
