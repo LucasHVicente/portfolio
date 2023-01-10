@@ -1,4 +1,3 @@
-import { Button } from './Button';
 import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 import { LinkButton } from './LinkButton';
 interface HeaderLinkProps {
@@ -44,7 +43,7 @@ export const Header = ({ links }: HeaderParams) => {
         ))}
       </div>
       <div className="fixed left-0 bottom-0 p-6 pb-0">
-        <div className="border-l border-blue-500 p-4 pb-8 flex flex-col">
+        <div className="hidden border-l border-blue-500 p-4 pb-8 flex flex-col">
           {contacts.map(({ icon, url }) => (
             <a
               key={url}
