@@ -108,15 +108,15 @@ export const Skills = () => {
     },
   ];
   return (
-    <div className="section-div flex justify-between lg:flex-row flex-col gap-4">
-      <div className="lg:w-1/2">
+    <div className="section-div items-center flex flex-col justify-between gap-4">
+      <div className="text-center pb-8">
         <h3 className="text-3xl text-blue-500">Habilidades</h3>
         <p>
           Aqui estão listadas algumas das principais tecnologias que eu já usei,
           tanto em ambiente profissional quanto em projetos pessoais.
         </p>
       </div>
-      <div className="flex gap-8 lg:w-1/2 flex-wrap justify-center">
+      <div className="flex gap-8  flex-wrap justify-center">
         {skills.map((item) => (
           <div
             className="flex gap-2 flex-col items-center w-16"

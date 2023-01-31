@@ -1,13 +1,4 @@
-import {
-  BsGithub,
-  BsInstagram,
-  BsLinkedin,
-  BsMailbox,
-  BsMailbox2,
-  BsPhone,
-  BsTelephone,
-  BsWhatsapp,
-} from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsTelephone } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 
 export const Contact = () => {

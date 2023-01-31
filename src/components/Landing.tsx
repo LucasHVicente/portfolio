@@ -14,7 +14,6 @@ export const Landing = () => (
     </div>
     <div className="flex lg:w-[60%] justify-start gap-6 pt-4">
       <LinkButton label="Entre em contato" href="#contact" />
-      <LinkButton label="Baixar CV" href="#contact" />
     </div>
   </div>
 );

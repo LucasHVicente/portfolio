@@ -20,10 +20,10 @@ export default function Home() {
             label: 'Habilidades',
             url: '#skills',
           },
-          {
-            label: 'Experência',
-            url: '#experience',
-          },
+          // {
+          //   label: 'Experência',
+          //   url: '#experience',
+          // },
           {
             label: 'Projetos',
             url: '#projects',
@@ -43,9 +43,9 @@ export default function Home() {
       <section id="skills">
         <Skills />
       </section>
-      <section id="experience">
+      {/* <section id="experience">
         <Experience />
-      </section>
+      </section> */}
       <section id="projects">
         <Projects />
       </section>
