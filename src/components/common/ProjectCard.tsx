@@ -1,9 +1,5 @@
-import { Project } from '../../types/Project';
+import { ProjectCardProps } from '../../types/ProjectCard/ProjectCardProps';
 import { LinkButton } from './LinkButton';
-
-interface ProjectCardProps {
-  project: Project;
-}
 
 export const ProjectCard = ({ project }: ProjectCardProps) => (
   <div

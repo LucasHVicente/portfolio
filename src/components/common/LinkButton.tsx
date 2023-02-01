@@ -1,7 +1,4 @@
-interface LinkButtonProps {
-  label: string;
-  href: string;
-}
+import { LinkButtonProps } from '../../types/LinkButton/LinkButtonProps';
 
 export const LinkButton = ({ label, href }: LinkButtonProps) => {
   return (

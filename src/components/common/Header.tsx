@@ -1,13 +1,6 @@
 import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 import { LinkButton } from './LinkButton';
-interface HeaderLinkProps {
-  label: string;
-  url: string;
-}
-
-interface HeaderParams {
-  links: HeaderLinkProps[];
-}
+import { HeaderParams } from '../../types/Header/HeaderParams';
 
 export const Header = ({ links }: HeaderParams) => {
   const contacts = [
