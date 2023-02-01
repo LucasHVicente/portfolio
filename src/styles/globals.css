@@ -37,7 +37,7 @@ h3 {
 }
 
 .start-animation {
-  animation: changeText 5s;
+  animation: changeText 2.5s;
 }
 @keyframes changeText {
   0% {

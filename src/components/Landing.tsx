@@ -6,20 +6,24 @@ export const Landing = () => (
     <div className="section-div">
       <h2 className="text-blue-700 text-xl lg:text-2xl">
         <TypeAnimation
-          speed={50}
+          speed={75}
           cursor={false}
           sequence={['Olá, meu nome é']}
         />
       </h2>
       <h1 className="text-blue-500 font-semibold text-3xl lg:text-5xl">
-        <TypeAnimation cursor={false} sequence={[1000, '<Lucas Vicente/>']} />
+        <TypeAnimation
+          speed={65}
+          cursor={false}
+          sequence={[500, '<Lucas Vicente/>']}
+        />
       </h1>
       <h2 className="text-blue-700 text-xl lg:text-3xl">
         <TypeAnimation
-          speed={50}
+          speed={75}
           cursor={false}
           className="typing-cursor"
-          sequence={[2000, 'e eu sou um desenvolvedor web.']}
+          sequence={[1000, 'e eu sou um desenvolvedor web.']}
         />
       </h2>
       <p className="start-animation">

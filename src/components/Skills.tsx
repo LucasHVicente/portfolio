@@ -108,7 +108,7 @@ export const Skills = () => {
     },
   ];
   return (
-    <div className="section-div items-center flex flex-col justify-between gap-4">
+    <div className="section-div start-animation items-center flex flex-col justify-between gap-4">
       <div className="text-center pb-8">
         <h3 className="text-3xl text-blue-500">Habilidades</h3>
         <p>
