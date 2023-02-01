@@ -30,7 +30,7 @@ export const Landing = () => (
         Sou desenvolvedor com foco em desenvolvimento front-end e mobile.
       </p>
     </div>
-    <div className="start-animation flex lg:w-[60%] justify-start gap-6 pt-4">
+    <div className="start-animation flex max-w-[900px]  lg:w-[60%] justify-start gap-6 pt-4">
       <LinkButton label="Saiba mais" href="#about" />
       <LinkButton label="Entre em contato" href="#contact" />
     </div>
