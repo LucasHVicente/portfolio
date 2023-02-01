@@ -10,10 +10,18 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
     <p>{project.description}</p>
     <div className="flex gap-4 pt-4">
       {typeof project.code_repo === 'string' && (
-        <LinkButton href={project.code_repo} label={'Repositório'} />
+        <LinkButton
+          target="_blank"
+          href={project.code_repo}
+          label={'Repositório'}
+        />
       )}
       {typeof project.live_url === 'string' && (
-        <LinkButton href={project.live_url} label={'Aplicação'} />
+        <LinkButton
+          target="_blank"
+          href={project.live_url}
+          label={'Aplicação'}
+        />
       )}
     </div>
   </div>

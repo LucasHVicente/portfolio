@@ -24,7 +24,7 @@ export const Experience = () => {
         <div key={job.job_title}>
           <h4 className=" text-2xl text-blue-500">{job.company_name}</h4>
           <p>{job.job_description}</p>
-          <LinkButton label="Site" href={job.website} />
+          <LinkButton target="_blank" label="Site" href={job.website} />
         </div>
       ))}
     </div>
