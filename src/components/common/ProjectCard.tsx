@@ -6,7 +6,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => (
     className="flex flex-col items-center w-[200px] text-center"
     key={project.title}
   >
-    <span className="text-lg text-blue-300">{project.title}</span>
+    <span className="text-lg text-blue-500">{project.title}</span>
     <p>{project.description}</p>
     <div className="flex gap-4 pt-4">
       {typeof project.code_repo === 'string' && (

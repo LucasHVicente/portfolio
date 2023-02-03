@@ -8,7 +8,7 @@ export const About = () => {
       <img
         alt="Lucas Vicente"
         src="https://avatars.githubusercontent.com/LucasHVicente"
-        className="rounded-full w-40 lg:w-80"
+        className="rounded-full w-40 lg:w-80 border-2 border-blue-500"
       />
       <div>
         <h3 className="text-3xl text-blue-500">Sobre mim</h3>
