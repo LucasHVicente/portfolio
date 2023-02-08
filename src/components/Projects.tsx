@@ -50,7 +50,7 @@ export const Projects = () => {
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>
-      <p>Mais projetos podem ser encontrados no meu github.</p>
+      <p>Mais projetos podem ser encontrados no meu Github.</p>
       <div>
         <a
           href="https://www.github.com/LucasHVicente"

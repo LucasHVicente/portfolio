@@ -37,9 +37,9 @@ h3 {
 }
 
 .start-animation {
-  animation: changeText 2.5s;
+  animation: textAppear 2.5s;
 }
-@keyframes changeText {
+@keyframes textAppear {
   0% {
     opacity: 0;
   }
