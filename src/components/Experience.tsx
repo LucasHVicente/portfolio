@@ -41,7 +41,7 @@ export const Experience = () => {
             FHO - Uniararas
           </a>
           . Comecei o curso em 2017 logo após me formar no ensino médio e
-          concluí o curso em 2020.
+          concluí em 2020.
         </p>
       </div>
     </div>

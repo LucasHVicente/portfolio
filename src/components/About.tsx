@@ -20,7 +20,9 @@ export const About = () => {
           mobile hibrido usando React, React Native e Ionic Framework. Também
           tenho conhecimentos na parte de construção de APIs REST usando
           Node.js, já trabalhei com bancos de dados relacionais como MySQL e
-          SQLite e bancos não relacionais como MongoDB e Firebase.
+          SQLite e bancos não relacionais como MongoDB e Firebase. Gosto muito
+          da area de desenvolvimento web e meu objetivo é me tornar um
+          especialista em desenvolvimento front-end.
         </p>
       </div>
     </div>
