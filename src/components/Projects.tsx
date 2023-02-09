@@ -51,14 +51,14 @@ export const Projects = () => {
         ))}
       </div>
       <p>Mais projetos podem ser encontrados no meu Github.</p>
-      <div>
+      <div className="transition hover:scale-110">
         <a
           href="https://www.github.com/LucasHVicente"
           target="_blank"
           className="hover:text-blue-500 transition my-6 flex flex-col items-center gap-4"
           rel="noreferrer"
         >
-          <span className="text-3xl">
+          <span className="text-3xl ">
             <BsGithub />
           </span>
           <span className="lg:block hidden">github.com/LucasHVicente</span>

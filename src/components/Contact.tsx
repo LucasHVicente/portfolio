@@ -26,11 +26,11 @@ export const Contact = () => {
   ];
   return (
     <div className="section-div start-animation border-none flex flex-col items-center">
-      <h2 className="text-blue-500 text-5xl pb-4">Contato</h2>
+      <h2 className="text-blue-500 text-5xl mb-4">Contato</h2>
       <p>Se interessou no meu trabalho? me mande uma mensagem.</p>
-      <div className="flex w-full justify-between px-20 py-12 gap-4">
+      <div className="flex w-full justify-between px-20 p-12 gap-4">
         {contacts.map(({ icon, url, label }) => (
-          <div key={url}>
+          <div key={url} className="transition hover:scale-110">
             <a
               href={url}
               target="_blank"

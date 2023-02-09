@@ -8,6 +8,7 @@ html {
 
 body {
   --webkit-font-smoothing: antialiased;
+  @apply bg-bg-dark;
 }
 
 section {

@@ -3,7 +3,7 @@ import { LinkButton } from './common/LinkButton';
 
 export const Landing = () => (
   <div className="flex w-full min-h-full lg:min-h-[80vh] items-center flex-col">
-    <div className="section-div">
+    <div className="section-div border-none">
       <h2 className="text-blue-700 text-xl lg:text-2xl">
         <TypeAnimation
           speed={75}
@@ -30,7 +30,7 @@ export const Landing = () => (
         Sou desenvolvedor com foco em desenvolvimento front-end e mobile.
       </p>
     </div>
-    <div className="start-animation flex max-w-[900px]  lg:w-[60%] justify-start gap-6 pt-4">
+    <div className="start-animation flex max-w-[900px]  lg:w-[60%] justify-start gap-6 pt-4 border-t border-blue-500">
       <LinkButton label="Saiba mais" href="#about" />
       <LinkButton label="Entre em contato" href="#contact" />
     </div>

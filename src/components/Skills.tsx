@@ -119,7 +119,7 @@ export const Skills = () => {
       <div className="flex gap-8  flex-wrap justify-center">
         {skills.map((item) => (
           <div
-            className="flex gap-2 flex-col items-center w-16"
+            className="flex gap-2 flex-col items-center w-16 transition hover:scale-110 hover:text-blue-500"
             key={item.label}
           >
             <span className="text-4xl">{item.icon}</span>

@@ -36,13 +36,13 @@ export const Header = ({ links }: HeaderParams) => {
         ))}
       </div>
       <div className="fixed left-0 bottom-0 p-6 pb-0">
-        <div className="hidden border-l border-blue-500 p-4 pb-8 flex flex-col">
+        <div className="start-animation border-l border-blue-500 p-4 pb-8 flex flex-col ">
           {contacts.map(({ icon, url }) => (
             <a
               key={url}
               href={url}
               target="_blank"
-              className="hover:text-blue-500 hover:drop-shadow-2xl shadow-blue-500 transition text-2xl my-3"
+              className="hover:text-blue-500 hover:scale-110 hover:drop-shadow-2xl shadow-blue-500 transition text-2xl my-3 "
               rel="noreferrer"
             >
               {icon}
