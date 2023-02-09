@@ -14,14 +14,14 @@ export const Contact = () => {
       url: 'https://wa.me/5519996751139',
     },
     {
-      icon: <BsGithub />,
-      label: 'github.com/LucasHVicente',
-      url: 'https://github.com/LucasHVicente',
-    },
-    {
       icon: <BsLinkedin />,
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/lucas-vicente-077852191/',
+    },
+    {
+      icon: <BsGithub />,
+      label: 'github.com/LucasHVicente',
+      url: 'https://github.com/LucasHVicente',
     },
   ];
   return (

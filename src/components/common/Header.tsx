@@ -1,9 +1,18 @@
-import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsTelephone } from 'react-icons/bs';
 import { LinkButton } from './LinkButton';
 import { HeaderParams } from '../../types/Header/HeaderParams';
+import { MdEmail } from 'react-icons/md';
 
 export const Header = ({ links }: HeaderParams) => {
   const contacts = [
+    {
+      icon: <MdEmail />,
+      url: 'mailto:l.vicente9003@gmail.com',
+    },
+    {
+      icon: <BsTelephone />,
+      url: 'https://wa.me/5519996751139',
+    },
     {
       icon: <BsLinkedin />,
       url: 'https://www.linkedin.com/in/lucas-vicente-077852191/',
@@ -11,14 +20,6 @@ export const Header = ({ links }: HeaderParams) => {
     {
       icon: <BsGithub />,
       url: 'https://github.com/LucasHVicente',
-    },
-    {
-      icon: <BsInstagram />,
-      url: 'https://www.instagram.com/lucas_vicent/',
-    },
-    {
-      icon: <BsWhatsapp />,
-      url: 'https://wa.me/5519996751139',
     },
   ];
   return (
