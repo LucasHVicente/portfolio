@@ -5,7 +5,7 @@ import { useTranslation } from '../hooks/useTranslation';
 export const About = () => {
   const { translation } = useTranslation();
   const { about } = translation;
-  const age = moment().diff('1999-04-15', 'years', false);
+  const age = String(moment().diff('1999-04-15', 'years', false));
   const aboutText = about.text.replace('<age>', age);
 
   return (
