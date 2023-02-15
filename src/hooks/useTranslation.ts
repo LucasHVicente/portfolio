@@ -1,10 +1,9 @@
 import { useRouter } from 'next/router';
-import { translations } from '../i18n';
+import { getTranslation } from '../i18n';
 
 export const useTranslation = () => {
   const { locale } = useRouter();
-
-  const translation = translations[locale];
+  const translation = getTranslation(locale);
 
   return {
     locale,

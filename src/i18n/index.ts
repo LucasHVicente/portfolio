@@ -1,7 +1,13 @@
 import ptBR from './pt-BR.json';
 import enUS from './enUS.json';
 
-export const translations = {
-  'pt-BR': ptBR,
-  'en-US': enUS,
+export const getTranslation = (locale: string | undefined) => {
+  switch (locale) {
+    case 'pt-BR':
+      return ptBR;
+    case 'en-US':
+      return enUS;
+    default:
+      return ptBR;
+  }
 };
