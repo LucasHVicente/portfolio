@@ -21,7 +21,7 @@ import {
   SiTestinglibrary,
 } from 'react-icons/si';
 import { useTranslation } from '../hooks/useTranslation';
-import { translations } from '../i18n';
+
 export const Skills = () => {
   const { translation } = useTranslation();
   const skills = [
