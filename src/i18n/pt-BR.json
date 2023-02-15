@@ -1,0 +1,65 @@
+{
+  "landing": {
+    "writer1": "Olá, meu nome é",
+    "writer2": "e eu sou um desenvolvedor web.",
+    "description": "Sou desenvolvedor com foco em desenvolvimento front-end e mobile."
+  },
+  "about": {
+    "link": "Sobre",
+    "title": "Sobre mim",
+    "text": "Meu nome é Lucas Henrique Vicente, tenho <age> anos e sou desenvolvedor desde 2019, em 2020 me formei em Sistemas de Informação pela FHO - Uniararas. Sou focado no ecossistema do JavaScript e TypeScript, tenho experiência com desenvolvimento front-end web e mobile hibrido usando React, React Native e Ionic Framework. Também tenho conhecimentos na parte de construção de APIs REST usando Node.js, já trabalhei com bancos de dados relacionais como MySQL e SQLite e bancos não relacionais como MongoDB e Firebase. Gosto muito da area de desenvolvimento web e meu objetivo é me tornar um especialista em desenvolvimento front-end."
+  },
+  "skills": {
+    "link": "Habilidades",
+    "title": "Habilidades",
+    "text": "Aqui estão listadas algumas das principais tecnologias que eu já usei, tanto em ambiente profissional quanto em projetos pessoais."
+  },
+  "experience": {
+    "link": "Experiências",
+    "title": "Experiências",
+    "workExperience": {
+      "title": "Experiência Profissional",
+      "napp": {
+        "title": "Desenvolvedor Frontend",
+        "description": "Durante meu período na Napp Solutions eu era responsável pelo desenvolvimento e manutenção de sistemas web responsivos e aplicativos mobile para o gerenciamento de comércios e marketplace utilizando Node.js e as linguagens TypeScript e JavaScript com as bibliotecas ReactJS e React Native, testes unitários com Jest e React Testing Library, versionamento usando Git e prototipação de aplicações usando o Figma"
+      },
+      "compsoft": {
+        "title": "Estagiário em Desenvolvimento Mobile",
+        "description": "Minha primeira experiência profissional como desenvolvedor foi como estagiário na Compsoft, lá eu era responsável pelo desenvolvimento e manutenção de aplicativos mobile voltados para o gerenciamento de estoque e vendas usando Typescript com o Ionic Framework e sistemas web de gerenciamento interno usando React e Typescript."
+      }
+    },
+    "education": {
+      "title": "Formação acadêmica",
+      "bachelorSI": "Bacharelado em Sistemas de Informação"
+    }
+  },
+  "projects": {
+    "link": "Projetos",
+    "title": "Projetos",
+    "texts": {
+      "description": "Alguns projetos que gostaria de destacar:",
+      "moreProjects": "Mais projetos podem ser encontrados no meu Github."
+    },
+    "descriptions": {
+      "pokedexReact": "Aplicação para a listagem e consulta de Pokémon usando React.",
+      "covidMonitoring": "Aplicação para monitoramento dos casos de covid-19.",
+      "nlwCopa": "Aplicativo de bolão desenvolvido usando React, React Native e Node.",
+      "demyx": "Bot de discord feito para a reprodução de música desenvolvido em Node.js",
+      "pokedexIonic": "Aplicação para a listagem e consulta de Pokémon usando Ionic Framework.",
+      "portfolio": "Este portfólio foi desenvolvido usando Next.js"
+    }
+  },
+  "contact": {
+    "link": "Contato",
+    "title": "Contato",
+    "text": "Se interessou no meu trabalho? me mande uma mensagem."
+  },
+  "buttons": {
+    "about": "Saiba mais",
+    "contact": "Entre em contato",
+    "company": "Sobre a empresa",
+    "application": "Aplicação",
+    "code": "Código"
+  },
+  "since": "Desde"
+}

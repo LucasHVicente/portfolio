@@ -20,7 +20,10 @@ import {
   SiJest,
   SiTestinglibrary,
 } from 'react-icons/si';
+import { useTranslation } from '../hooks/useTranslation';
+import { translations } from '../i18n';
 export const Skills = () => {
+  const { translation } = useTranslation();
   const skills = [
     {
       label: 'HTML',
@@ -110,11 +113,8 @@ export const Skills = () => {
   return (
     <div className="section-div start-animation items-center flex flex-col justify-between gap-4">
       <div className="text-center pb-8">
-        <h3 className="text-3xl text-blue-500">Habilidades</h3>
-        <p>
-          Aqui estão listadas algumas das principais tecnologias que eu já usei,
-          tanto em ambiente profissional quanto em projetos pessoais.
-        </p>
+        <h3 className="text-3xl text-blue-500">{translation.skills.title}</h3>
+        <p>{translation.skills.text}</p>
       </div>
       <div className="flex gap-8  flex-wrap justify-center">
         {skills.map((item) => (
