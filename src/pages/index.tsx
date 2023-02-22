@@ -4,54 +4,49 @@ import { Experience } from '../components/Experience';
 import { Landing } from '../components/Landing';
 import { Projects } from '../components/Projects';
 import { Skills } from '../components/Skills';
-
 import { Header } from '../components/common/Header';
+import { Section } from '../components/common/Section';
 
 export default function Home() {
+  const sections = [
+    {
+      label: 'Sobre',
+      url: 'about',
+      Component: About,
+    },
+    {
+      label: 'Habilidades',
+      url: 'skills',
+      Component: Skills,
+    },
+    {
+      label: 'Experências',
+      url: 'experience',
+      Component: Experience,
+    },
+    {
+      label: 'Projetos',
+      url: 'projects',
+      Component: Projects,
+    },
+    {
+      label: 'Contato',
+      url: 'contact',
+      Component: Contact,
+    },
+  ];
+
   return (
     <div className="bg-bg-dark text-gray-300">
-      <Header
-        links={[
-          {
-            label: 'Sobre',
-            url: '#about',
-          },
-          {
-            label: 'Habilidades',
-            url: '#skills',
-          },
-          {
-            label: 'Experências',
-            url: '#experience',
-          },
-          {
-            label: 'Projetos',
-            url: '#projects',
-          },
-          {
-            label: 'Contato',
-            url: '#contact',
-          },
-        ]}
-      />
-      <section>
-        <Landing />
-      </section>
-      <section id="about">
-        <About />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="experience">
-        <Experience />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
+      <Header links={sections} />
+
+      <Landing />
+
+      {sections.map(({ url, Component }) => (
+        <Section key={url} id={url}>
+          <Component />
+        </Section>
+      ))}
     </div>
   );
 }

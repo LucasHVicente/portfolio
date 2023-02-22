@@ -37,10 +37,7 @@ h3 {
   }
 }
 
-.start-animation {
-  animation: textAppear 2.5s;
-}
-@keyframes textAppear {
+@keyframes contentAppear {
   0% {
     opacity: 0;
   }

@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'start-animation': 'contentAppear 2.5s',
+        'section-display': 'contentAppear .8s',
+      },
       fontFamily: {
         title: 'Sofia sans, sans-serif',
       },

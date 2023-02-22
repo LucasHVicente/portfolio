@@ -20,7 +20,7 @@ export const Experience = () => {
     },
   ];
   return (
-    <div className="section-div start-animation flex flex-col items-center gap-4">
+    <div className="section-div flex flex-col items-center gap-4">
       <h3 className="text-3xl text-blue-500">Experiências</h3>
 
       <h4 className="text-2xl text-blue-500">Experiência Profissional</h4>

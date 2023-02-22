@@ -4,7 +4,7 @@ import moment from 'moment';
 export const About = () => {
   const age = moment().diff('1999-04-15', 'years', false);
   return (
-    <div className="start-animation section-div flex items-center gap-16 lg:flex-row flex-col">
+    <div className="section-div flex items-center gap-16 lg:flex-row flex-col">
       <img
         alt="Lucas Vicente"
         src="https://avatars.githubusercontent.com/LucasHVicente"

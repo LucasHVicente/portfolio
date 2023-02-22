@@ -42,7 +42,7 @@ export const Projects = () => {
     },
   ];
   return (
-    <div className="section-div start-animation items-center flex flex-col justify-between gap-4">
+    <div className="section-div  items-center flex flex-col justify-between gap-4">
       <h3 className="text-blue-500 text-3xl">Projetos</h3>
       <p>Alguns projetos que gostaria de destacar:</p>
       <div className="flex p-8 gap-8 flex-wrap justify-evenly">

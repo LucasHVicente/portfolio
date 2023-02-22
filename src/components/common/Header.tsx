@@ -23,13 +23,13 @@ export const Header = ({ links }: HeaderParams) => {
     },
   ];
   return (
-    <header className="hidden bg-inherit lg:flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0">
+    <header className="hidden bg-inherit lg:flex flex-1 justify-between p-6 pb-0 shadow-md shadow-bg-dark  pr-0 sticky top-0 z-10">
       <LinkButton label="LV" href="#" />
-      <div className="start-animation border-b border-blue-500 px-8 flex gap-6 self-end ">
+      <div className="animate-start-animation border-b border-blue-500 px-8 flex gap-6 self-end ">
         {links.map(({ label, url }) => (
           <a
             key={url}
-            href={url}
+            href={`#${url}`}
             className="hover:drop-shadow-2xl shadow-blue-500 transition hover:cursor-pointer hover:text-blue-500 pb-4"
           >
             {label}
@@ -37,7 +37,7 @@ export const Header = ({ links }: HeaderParams) => {
         ))}
       </div>
       <div className="fixed left-0 bottom-0 p-6 pb-0">
-        <div className="start-animation border-l border-blue-500 p-4 pb-8 flex flex-col ">
+        <div className="animate-start-animation border-l border-blue-500 p-4 pb-8 flex flex-col ">
           {contacts.map(({ icon, url }) => (
             <a
               key={url}

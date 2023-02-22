@@ -26,11 +26,11 @@ export const Landing = () => (
           sequence={[1000, 'e eu sou um desenvolvedor web.']}
         />
       </h2>
-      <p className="start-animation">
+      <p className="animate-start-animation">
         Sou desenvolvedor com foco em desenvolvimento front-end e mobile.
       </p>
     </div>
-    <div className="start-animation flex max-w-[900px]  lg:w-[60%] justify-start gap-6 pt-4 border-t border-blue-500">
+    <div className="animate-start-animation flex max-w-[900px]  lg:w-[60%] justify-start gap-6 pt-4 border-t border-blue-500">
       <LinkButton label="Saiba mais" href="#about" />
       <LinkButton label="Entre em contato" href="#contact" />
     </div>
