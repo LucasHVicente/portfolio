@@ -3,14 +3,11 @@ import { LinkButton } from './LinkButton';
 import classNames from 'classnames';
 import { ExperienceTabProps } from '../../types/Experiences/ExperienceTabProps';
 import { Experience } from '../../types/Experiences/Experience';
-import { useTranslation } from '../../hooks/useTranslation';
 
 export const ExperienceTabs = ({
   initialTab,
   experiences,
 }: ExperienceTabProps) => {
-  const { translation } = useTranslation();
-  const { buttons } = translation;
   const [currentTab, setCurrentTab] = useState(initialTab);
   const [selectedExperience, setSelectedExperience] = useState<Experience>({
     company_name: '',
@@ -35,9 +32,7 @@ export const ExperienceTabs = ({
         year: 'numeric',
       })
       .toUpperCase();
-    if (typeof endDate !== 'string')
-      // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-      return `${translation.since} ${startString}`;
+    if (typeof endDate !== 'string') return `Desde ${startString}`;
     const endString = new Date(endDate)
       .toLocaleDateString('pt-BR', {
         month: 'short',
@@ -84,7 +79,7 @@ export const ExperienceTabs = ({
           <LinkButton
             href={selectedExperience.website}
             target="_blank"
-            label={buttons.company}
+            label="Sobre a empresa"
           />
         </div>
       </div>

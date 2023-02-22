@@ -1,54 +1,56 @@
 import { BsGithub } from 'react-icons/bs';
 import { ProjectCard } from './common/ProjectCard';
-import { useTranslation } from '../hooks/useTranslation';
 
 export const Projects = () => {
-  const { translation } = useTranslation();
   const projects = [
     {
       title: 'Pokédex React',
-      description: translation.projects.descriptions.pokedexReact,
+      description:
+        'Aplicação para a listagem e consulta de Pokémon usando React.',
       live_url: 'https://lucashvicente.github.io/pokedex-react',
       code_repo: 'https://github.com/LucasHVicente/pokedex-react',
     },
     {
       title: 'Covid 19 Monitoring',
-      description: translation.projects.descriptions.covidMonitoring,
+      description: 'Aplicação para monitoramento dos casos de covid-19.',
       live_url: 'https://covid-19-brazil-monitoring.netlify.app/',
       code_repo: 'https://github.com/LucasHVicente/covid19-monitoring',
     },
     {
       title: 'NLW Copa',
-      description: translation.projects.descriptions.nlwCopa,
+      description:
+        'Aplicativo de bolão desenvolvido usando React, React Native e Node.',
       code_repo: 'https://github.com/LucasHVicente/nlw-copa',
     },
     {
       title: 'Demyx Discord bot',
-      description: translation.projects.descriptions.demyx,
+      description:
+        'Bot de discord feito para a reprodução de música desenvolvido em Node.js',
       code_repo: 'https://github.com/LucasHVicente/demyx-discord-bot',
     },
     {
       title: 'Pokédex Ionic',
-      description: translation.projects.descriptions.pokedexIonic,
+      description:
+        'Aplicação para a listagem e consulta de Pokémon usando Ionic Framework.',
       live_url: 'https://pokedex-ionic.netlify.app/',
       code_repo: 'https://github.com/LucasHVicente/PokedexIonic',
     },
     {
-      title: 'Portfolio',
-      description: translation.projects.descriptions.portfolio,
+      title: 'Portfólio',
+      description: 'Este portfólio foi desenvolvido usando Next.js',
       code_repo: 'https://github.com/LucasHVicente/portfolio',
     },
   ];
   return (
     <div className="section-div start-animation items-center flex flex-col justify-between gap-4">
-      <h3 className="text-blue-500 text-3xl">{translation.projects.title}</h3>
-      <p>{translation.projects.texts.description}</p>
+      <h3 className="text-blue-500 text-3xl">Projetos</h3>
+      <p>Alguns projetos que gostaria de destacar:</p>
       <div className="flex p-8 gap-8 flex-wrap justify-evenly">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>
-      <p>{translation.projects.texts.moreProjects}</p>
+      <p>Mais projetos podem ser encontrados no meu Github.</p>
       <div className="transition hover:scale-110">
         <a
           href="https://www.github.com/LucasHVicente"

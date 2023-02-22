@@ -6,33 +6,30 @@ import { Projects } from '../components/Projects';
 import { Skills } from '../components/Skills';
 
 import { Header } from '../components/common/Header';
-import { useTranslation } from '../hooks/useTranslation';
 
 export default function Home() {
-  const { translation } = useTranslation();
-
   return (
     <div className="bg-bg-dark text-gray-300">
       <Header
         links={[
           {
-            label: translation.about.link,
+            label: 'Sobre',
             url: '#about',
           },
           {
-            label: translation.skills.link,
+            label: 'Habilidades',
             url: '#skills',
           },
           {
-            label: translation.experience.link,
+            label: 'Experências',
             url: '#experience',
           },
           {
-            label: translation.projects.link,
+            label: 'Projetos',
             url: '#projects',
           },
           {
-            label: translation.contact.link,
+            label: 'Contato',
             url: '#contact',
           },
         ]}
