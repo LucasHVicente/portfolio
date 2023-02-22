@@ -1,13 +1,15 @@
 import moment from 'moment';
+import Image from 'next/image';
 
-/* eslint-disable @next/next/no-img-element */
 export const About = () => {
   const age = moment().diff('1999-04-15', 'years', false);
   return (
     <div className="start-animation section-div flex items-center gap-16 lg:flex-row flex-col">
-      <img
+      <Image
         alt="Lucas Vicente"
         src="https://avatars.githubusercontent.com/LucasHVicente"
+        width={160}
+        height={160}
         className="rounded-full w-40 lg:w-80 border-2 border-blue-500"
       />
       <div>
