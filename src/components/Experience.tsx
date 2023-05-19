@@ -3,6 +3,13 @@ import { ExperienceTabs } from './common/ExperienceTabs';
 export const Experience = () => {
   const experiences = [
     {
+      company_name: 'MaisMei',
+      title: 'Desenvolvedor Frontend',
+      description: `Atualmente sou desenvolvedor frontend e estrou trabalhando em aplicações com foco em auxiliar microempreendedores individuais usando React e Typescript.`,
+      start_date: '2023-05-22',
+      website: 'https://www.maismei.com.br/',
+    },
+    {
       company_name: 'Napp Solutions',
       title: 'Desenvolvedor Frontend',
       description: `Durante meu período na Napp Solutions eu era responsável pelo desenvolvimento e manutenção de sistemas web responsivos e aplicativos mobile para o gerenciamento de comércios e marketplace utilizando Node.js e as linguagens TypeScript e JavaScript com as bibliotecas ReactJS e React Native, testes unitários com Jest e React Testing Library, versionamento usando Git e prototipação de aplicações usando o Figma`,
@@ -24,7 +31,7 @@ export const Experience = () => {
       <h3 className="text-3xl text-blue-500">Experiências</h3>
 
       <h4 className="text-2xl text-blue-500">Experiência Profissional</h4>
-      <ExperienceTabs initialTab="Napp Solutions" experiences={experiences} />
+      <ExperienceTabs initialTab="MaisMei" experiences={experiences} />
       <h4 className="text-2xl text-blue-500">Formação acadêmica</h4>
       <div>
         <h5 className="text-xl text-blue-500">
