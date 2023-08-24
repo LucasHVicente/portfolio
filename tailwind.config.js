@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'start-animation': 'contentAppear 2.5s',
+        'start-animation': 'startAnimation 2.5s',
         'section-display': 'contentAppear .8s',
       },
       fontFamily: {
