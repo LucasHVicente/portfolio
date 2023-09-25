@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       animation: {
         'start-animation': 'startAnimation 2.5s',
-        'section-display': 'contentAppear .8s',
+        'section-display': 'contentAppear .5s',
       },
       fontFamily: {
         title: 'Sofia sans, sans-serif',
