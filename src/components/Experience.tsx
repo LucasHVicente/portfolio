@@ -5,7 +5,7 @@ export const Experience = () => {
     {
       company_name: 'MaisMei',
       title: 'Desenvolvedor Frontend',
-      description: `Atualmente sou desenvolvedor frontend e estrou trabalhando em aplicações com foco em auxiliar microempreendedores individuais usando React e Typescript.`,
+      description: `Atualmente sou desenvolvedor frontend e estrou trabalhando em aplicações web e mobile com foco em auxiliar microempreendedores individuais usando React, React Native e Typescript.`,
       start_date: '2023-05-22',
       website: 'https://www.maismei.com.br/',
     },
