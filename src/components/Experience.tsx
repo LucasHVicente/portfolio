@@ -34,7 +34,7 @@ export const Experience = () => {
       <ExperienceTabs initialTab="MaisMei" experiences={experiences} />
       <h4 className="text-2xl text-blue-500">Formação acadêmica</h4>
       <div>
-        <h5>
+        <h5 className="text-xl text-blue-500">
           Pós-graduação em Engenharia de Software
         </h5>
         <p>
