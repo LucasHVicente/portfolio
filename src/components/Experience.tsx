@@ -34,6 +34,20 @@ export const Experience = () => {
       <ExperienceTabs initialTab="MaisMei" experiences={experiences} />
       <h4 className="text-2xl text-blue-500">Formação acadêmica</h4>
       <div>
+        <h5>
+          Pós-graduação em Engenharia de Software
+        </h5>
+        <p>
+          Atualmente estou cursando uma pós-graduação em engenharia de software na{' '}
+          <a 
+            href="https://estacio.br/" 
+            target="_blank"
+            className="text-blue-500 cursor-pointer"
+            rel="noreferrer"
+          >
+            Estácio.
+          </a>
+        </p>
         <h5 className="text-xl text-blue-500">
           Bacharelado em Sistemas de Informação
         </h5>
