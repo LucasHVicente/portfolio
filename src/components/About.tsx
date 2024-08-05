@@ -15,8 +15,9 @@ export const About = () => {
         <p>
           Meu nome é Lucas Henrique Vicente, tenho {age} anos e sou
           desenvolvedor desde 2019, em 2020 me formei em Sistemas de Informação
-          pela FHO - Uniararas. Sou focado no ecossistema do JavaScript e
-          TypeScript, tenho experiência com desenvolvimento front-end web e
+          pela FHO - Uniararas e atualmente estou fazendo uma pós graduação em 
+          Engenharia de Software. Sou focado no ecossistema do JavaScript e TypeScript,
+          tenho experiência com desenvolvimento front-end web e
           mobile hibrido usando React, React Native e Ionic Framework. Também
           tenho conhecimentos na parte de construção de APIs REST usando
           Node.js, já trabalhei com bancos de dados relacionais como MySQL e
